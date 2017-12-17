@@ -5,6 +5,7 @@ initialization Sequelize:
 var sequelize = new Sequelize(config.database, config.username, config.password, config);
 
 Example load data model:
+
 var fs = require("fs");
 fs
     .readdirSync(appDir)
