@@ -1,0 +1,17 @@
+{
+  "name": "sample01",
+  "authors": [
+    "manhtuong1 <manhtuong115@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
