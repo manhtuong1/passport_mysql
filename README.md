@@ -1,3 +1,4 @@
+{
 This is project sample about nodejs with mysql use lib Sequelize for handler ORM.
 
 initialization Sequelize:
@@ -16,5 +17,8 @@ fs
         var model = sequelize.import(path.join(appDir, file));
         db[model.name] = model;
     });
+   ##
+   sequelize-auto -o "./models" -d sequelize_auto_test -h localhost -u my_username -p 5432 -x my_password -e postgres
+   }
 
 
